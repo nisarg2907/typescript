@@ -24,3 +24,16 @@ function runAfte1S(fn : ()=>void){
 runAfte1S(function(){
     console.log("ran after the 1s funnction");
 })
+
+
+// tsconfig
+// target=>ecmascript version referring javascript
+// rootDir=>where will the main ts file live
+// outDir=>where js file will live
+// NoImplicitAny=>explicitly consider any no mentioned typed variables into "any"
+// removeComments=>remove all the comments from the ts file
+
+
+
+// Interfaces aand types
+// types can not be implemented but the interfaces can  be implemnted as a class extemdion
